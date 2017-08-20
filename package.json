@@ -2,7 +2,7 @@
   "name": "tutorialtoken",
   "version": "1.0.0",
   "description": "",
-  "main": "truffle.js",
+  "main": "src/app.js",
   "directories": {
     "test": "test"
   },
@@ -14,5 +14,10 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "truffle-contract": "^2.0.5",
+    "web3": "^0.20.1"
   }
 }
